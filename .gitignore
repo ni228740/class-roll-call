@@ -1,0 +1,24 @@
+# 构建产物放入 Releases，不提交到源码仓库
+/build/
+/dist/
+*.exe
+*.spec
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 仅保留公开示例，避免误提交自己的班级名单
+/name/*
+!/name/默认名单_1-50.txt
+!/name/示例名单.txt
+/data/
+install.info
+
+# 本地配置与秘密
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
